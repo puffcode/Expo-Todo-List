@@ -1,5 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, SafeAreaView, FlatList } from "react-native";
+import { CheckBox } from "@rneui/themed";
 
 export default function App() {
   return (
