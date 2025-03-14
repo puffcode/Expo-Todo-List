@@ -1,15 +1,18 @@
 {
   "name": "todo-list",
+  "homepage": "https://puffcode.github.io/expo-todo-list",
   "license": "0BSD",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "expo-router/entry.js",
   "scripts": {
     "start": "expo start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d web-build",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "deploy": "gh-pages --nojekyll -d dist",
-    "predeploy": "expo export -p web"
+    "test": "jest --watchAll",
+    "lint": "expo lint"
   },
   "dependencies": {
     "@expo/metro-runtime": "~4.0.1",
