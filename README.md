@@ -1,2 +1,1 @@
-# Expo Todeo List
- 
+# Expo Todo List
